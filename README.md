@@ -1,5 +1,6 @@
 # OSC-Product-Verification-DAPP
 DAPP that verifies product record using blockchain
+
 ---
 **About**
 >The product Verification Dapp is a Decentralized Application that
@@ -19,11 +20,12 @@ contract associated with the dapp.
 The cryptographic hash depends on the document’s contents and
 any change to the contents will change the hash and hence will fail
 during verification.
+
 ---
 **Tech Stack**
 >HTML, CSS, JavaScript (related libraries and dependencies), Solidity, web3.js, crypto.js
+
 ---
 **Workflow**
-```
 ![image](https://user-images.githubusercontent.com/75323931/172436355-16364ed2-bc37-4507-babb-cb4bfd7eedd9.png)
-```
+
