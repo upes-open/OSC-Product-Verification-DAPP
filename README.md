@@ -21,7 +21,7 @@ any change to the contents will change the hash and hence will fail
 during verification.
 ---
 **Tech Stack**
-HTML, CSS, JavaScript (related libraries and dependencies), Solidity, web3.js, crypto.js
+>HTML, CSS, JavaScript (related libraries and dependencies), Solidity, web3.js, crypto.js
 ---
 **Workflow**
 ```
