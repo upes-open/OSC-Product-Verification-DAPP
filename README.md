@@ -23,11 +23,16 @@ during verification.
 
 ---
 **Tech Stack**
->HTML 
+>HTML
+
 >CSS 
->JavaScript (related libraries and dependencies) 
->Solidity 
+
+>JavaScript (related libraries and dependencies)
+
+>Solidity
+
 >web3.js 
+
 >crypto.js
 
 ---
