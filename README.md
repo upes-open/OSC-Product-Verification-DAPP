@@ -1,7 +1,7 @@
 # OSC-Product-Verification-DAPP
 DAPP that verifies product record using blockchain
 
-##Star ⭐ and Fork the repository to earn bonus points.
+## Star ⭐ and Fork the repository to earn bonus points.
 
 ---
 **About**
