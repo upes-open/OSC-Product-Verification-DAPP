@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Varification Dapp</title>
+</head>
+
+<body>
+    <h1 class="heading">Product-Verification Dapp</h1>
+    <form class="header">
+        <ul>
+            <li>
+                <label>Contract Address</label>
+                <p>0x8cdaf0cd259887258bc13a92c0a6ada92698644cd</p>
+            </li>
+            <li>
+                <label>Coinbase Balance</label>
+                <p>100.00000 <strong>ETH</strong></p>
+            </li>
+        </ul>
+    </form>
+
+    <!-- Uploading a file -->
+
+    <div class="container-1">
+        <h2>Upload File</h2>
+        <p>Submit hash to blockchain or verify using an existing document.</p>
+
+        <div>
+            <button class="file-btn">File</button>
+            <p class="file-name">tdc2.18_g.pdf</p>
+            <hr>
+            <button class="hash-btn">Generate Hash</button>
+        </div>
+
+        <!-- Submitting a file -->
+
+        <form class="submit">
+            <ul>
+                <li>
+                    <label>File</label>
+                    <p>tdc2.18_g.pdf</p>
+                </li>
+                <li>
+                    <label>Hash</label>
+                    <p>e0f972b586825b15ab3cb8b4cf7deb298fab6c3</p>
+                </li>
+                <li>
+                    <label>Option</label>
+                    <p><button type="submit" class="submit-btn">Submit</button></p>
+                </li>
+            </ul>
+        </form>
+
+        <!-- Confirmation of submitted file -->
+
+        <form class="confirm">
+        <ul>
+            <li>
+                <label>File registered</label>
+                <p>17/06/2022 4:09</p>
+            </li>
+            <li>
+                <label>File Owner</label>
+                <p>0x8cdaf0cd259887258bc13a92c0a6ada92698644cd</p>
+            </li>
+        </ul>
+    </form> 
+
+        <!-- Verifying the file -->
+        <div class="container-2">
+            <h2>Verify File</h2>
+            <div>
+                <button class="verify-btn">Verify</button>
+            </div>
+
+            <form class="verify">
+                <ul>
+                    <li>
+                        <label>Enter the Hash</label>
+                        <input type="text">
+                        <button type="submit" class="submit-btn" id="show">Submit</button>
+                    </li>
+                </ul>
+            </form> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
