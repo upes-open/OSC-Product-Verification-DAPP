@@ -47,7 +47,21 @@ ul {
     margin: 0 0 10px 0;
 }
 
-.file-btn {
+.custom-file-upload {
+    text-align: center;
+    display: inline-block;
+    padding: 6px 8px;
+    margin-right: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    color: white;
+    background-color: rgb(0, 158, 158);
+    border: none;
+}
+
+/* .file-btn {
     border-radius: 5px;
     width: 50px;
     height: 30px;
@@ -65,13 +79,16 @@ ul {
     display: inline-flex;
     padding: 5px;
     border-bottom: 2px solid rgb(0, 158, 158);
-}
+} */
+
 
 hr {
-    position: absolute;
-    border: 8px solid rgb(0, 158, 158);
-    margin: auto;
+    position: relative;
     width: 455px;
+    right: 412px;
+    top: 14px;
+    border: 6px solid rgb(0, 158, 158);
+    margin: auto;
     background-color: rgb(0, 158, 158);
     border-radius: 5px;
 }
@@ -99,6 +116,13 @@ hr {
     position: relative;
     right: 40px;
     top: 80px;
+}
+
+.submit h4{
+    position: absolute;
+    margin: auto;
+    left: 145px;
+    top: 6px;
 }
 
 .submit li {
@@ -202,7 +226,7 @@ hr {
     width: 150px;
 }
 
-#show{
+#show {
     color: white;
     background-color: rgb(0, 158, 158);
     border: none;
@@ -210,4 +234,3 @@ hr {
     padding: 4px;
     margin-left: 20px;
 }
-
