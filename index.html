@@ -35,7 +35,7 @@
             <label for="file-upload" class="custom-file-upload">
                 <i class="fas fa-cloud"></i> File
             </label>
-            <input id="file-upload" name='upload_cont_img' type="file" style="display:none;" >
+            <input id="file-upload" name='upload_cont' type="file" style="display:none;" >
             <label id="file-name"></label>
         </form>
 
@@ -43,8 +43,10 @@
             <input type="file" id="getFile" name="upload_cont_img" style="display: none">
             <label class="file-name"></label> -->
 
+        <!-- Generating hash -->
+
         <hr>
-        <button class="hash-btn">Generate Hash</button>
+        <button id="hash-btn" onclick="generateHash()">Generate Hash</button>
 
         <!-- Submitting a file -->
 
@@ -56,7 +58,7 @@
                 </li>
                 <li>
                     <label>Hash</label>
-                    <p>e0f972b586825b15ab3cb8b4cf7deb298fab6c3</p>
+                    <p id="hashText"></p>
                 </li>
                 <li>
                     <label>Option</label>
@@ -76,6 +78,9 @@
                 <li>
                     <label>File Owner</label>
                     <p>0x8cdaf0cd259887258bc13a92c0a6ada92698644cd</p>
+                </li>
+                <li>
+                   <p><strong>Please copy the hash for verification.</strong></p>
                 </li>
             </ul>
         </form>
@@ -97,6 +102,7 @@
                 </ul>
             </form>
         </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
         <script src="crypto.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
         <script src="script.js"></script>

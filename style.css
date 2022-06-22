@@ -83,17 +83,17 @@ ul {
 
 
 hr {
-    position: relative;
+    position: absolute;
     width: 455px;
-    right: 412px;
-    top: 14px;
+    left: 44px;
+    top: 314px;
     border: 6px solid rgb(0, 158, 158);
     margin: auto;
     background-color: rgb(0, 158, 158);
     border-radius: 5px;
 }
 
-.hash-btn {
+#hash-btn {
     display: block;
     position: absolute;
     top: 340px;
@@ -105,7 +105,7 @@ hr {
     padding: 8px;
 }
 
-.hash-btn:hover {
+#hash-btn:hover {
     cursor: pointer;
     transform: scale(1.05);
 }
@@ -137,6 +137,12 @@ hr {
 
 .submit li+li+li {
     background-color: rgb(235, 231, 231);
+}
+
+.submit #hashText{
+    position: absolute;
+    top: 35px;
+    left: 145px;
 }
 
 .submit label {
@@ -175,6 +181,16 @@ hr {
 
 .confirm li+li {
     background-color: rgb(255, 255, 255);
+}
+
+.confirm li+li+li{
+    background-color: rgb(235, 231, 231);
+}
+
+.confirm li+li+li p{
+    position: absolute;
+    top: 66px;
+    left: 145px;
 }
 
 .confirm label {
